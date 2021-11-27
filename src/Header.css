@@ -1,0 +1,16 @@
+.Header img {
+  max-height: 180px;
+}
+
+.Header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+}
+
+.Header h2 {
+  text-align: end !important;
+}
+
+.Header a {
+  font-size: 15px;
+}

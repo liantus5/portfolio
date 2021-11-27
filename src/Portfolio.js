@@ -2,20 +2,21 @@ import React from "react";
 import reactWeather from "./react-weather.png";
 import reactDictionary from "./react-dictionary.png";
 import vanillaWeather from "./vanilla-weather.png";
+import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="Portfolio container form-control">
+    <div className="Portfolio container form-control shadow">
       <div className="row p-3">
-        <div className="col-6">
+        <div className="col-sm-6">
           <img
             src={reactDictionary}
             alt="React Weather App"
             className="img-fluid rounded shadow"
           />
         </div>
-        <div className="col-6 align-self-center">
-          <div>React Dictionary App</div>
+        <div className="col-sm-6 align-self-center">
+          <h2>React Dictionary App</h2>
           <div>
             This application was created in React as one of the final projects
             for SheCodes React. Unit conversion is what I am most proud of. No
@@ -32,15 +33,15 @@ export default function Portfolio() {
       </div>
       <hr />
       <div className="row p-3">
-        <div className="col-6 align-self-center">
+        <div className="col-sm-6 align-self-center">
           <img
             src={reactWeather}
             alt="React Weather App"
             className="img-fluid rounded shadow"
           />
         </div>
-        <div className="col-6 align-self-center">
-          <div>React Weather App</div>
+        <div className="col-sm-6 align-self-center">
+          <h2>React Weather App</h2>
           <div>
             This application was created in React as one of the final projects
             for SheCodes React. Unit conversion is what I am most proud of. No
@@ -57,15 +58,15 @@ export default function Portfolio() {
       </div>
       <hr />
       <div className="row p-3">
-        <div className="col-6 align-self-center">
+        <div className="col-sm-6 align-self-center">
           <img
             src={vanillaWeather}
             alt="React Weather App"
             className="img-fluid rounded shadow"
           />
         </div>
-        <div className="col-6 align-self-center">
-          <div>Vanilla JS Weather App</div>
+        <div className="col-sm-6 align-self-center">
+          <h2>Vanilla JS Weather App</h2>
           <div>
             This application was created in React as one of the final projects
             for SheCodes React. Unit conversion is what I am most proud of. No
