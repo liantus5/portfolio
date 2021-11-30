@@ -9,10 +9,20 @@ export default function Header() {
   return (
     <div className="Header container form-control pt-2 pb-5 mt-5 mb-2 shadow">
       <div className="d-flex justify-content-end">
-        <a href="/" className="btn btn-outline-dark">
+        <a
+          href="mailto: lianaginiat@gmail.com"
+          className="btn btn-outline-dark"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
-        <a href="/" className="btn btn-outline-dark">
+        <a
+          href="https://www.linkedin.com/in/lianaginiat/"
+          className="btn btn-outline-dark"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
       </div>
