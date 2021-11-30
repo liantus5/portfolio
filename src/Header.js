@@ -26,7 +26,7 @@ export default function Header() {
         </div>
         <div>
           <h1>Liana Giniatullina</h1>
-          <h2>front-web whatever</h2>
+          <h2>front-end developer</h2>
         </div>
       </div>
     </div>
