@@ -6,7 +6,7 @@ export default function Project(props) {
       <div className="col-sm-6">
         <img
           src={props.image}
-          alt={props.text}
+          alt={props.title}
           className="img-fluid rounded shadow"
         />
       </div>
