@@ -7,7 +7,7 @@ import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="Portfolio container form-control shadow mb-5">
+    <div className="Portfolio container form-control shadow mb-1">
       <Project
         image={reactDictionary}
         title={"React Dictionary App"}
