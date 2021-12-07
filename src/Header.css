@@ -1,3 +1,17 @@
+@media (max-width: 800px) {
+  .Header h1 {
+    font-size: 40px !important;
+  }
+  .Header h2 {
+    text-align: center !important;
+    font-size: 17px;
+  }
+
+  .Header img {
+    display: none;
+  }
+}
+
 .Header img {
   max-height: 180px;
 }
@@ -8,7 +22,7 @@
 }
 
 .Header h2 {
-  text-align: end !important;
+  text-align: end;
 }
 
 .Header a {
